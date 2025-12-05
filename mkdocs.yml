@@ -41,7 +41,8 @@ extra:
 
 theme:
   name: material
-  palette: slate
+  palette: 
+    scheme: slate
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
     # primary: blue
     # accent: purple
