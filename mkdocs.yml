@@ -40,6 +40,7 @@ extra:
       link: "https://github.com/"
 
 theme:
+  name: material
   palette: 
     scheme: slate
     # try other colors https://squidfunk.github.io/mkdocs-material/getting-started/#primary-colors
