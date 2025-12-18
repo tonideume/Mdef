@@ -198,3 +198,36 @@ The monitor had been physically damaged — the LCD panel was completely broken,
 After the disassembly process, we meticulously examined each individual component. Utilizing a precision lab power supply and a high-resolution multimeter, we conducted comprehensive tests to determine the optimal voltage required for each component's functionality.
 
 # Machine Paradox Part 2
+
+During the second week, our task was to create, using the functional devices, a machine whose purpose was useless.
+
+![](../images/PARTS.png)
+
+CONCEPT: A MEAN MACHINE
+
+After years in which machines have served
+humans, supported them, and simplified their
+lives, we have finally created something...
+different.
+
+Designed not to help, but to deceive humans
+(oh, how stupid they can be!)
+and annoy them with technological mischief.
+
+![](../images/SKETCHESSTABING.png)
+
+We first learned how to use the buzzer and generate sound.
+Then we learned how to use the ultrasonic sensor to detect distance.
+We combined both components so the buzzer activates when my hand approaches the sensor.
+After that, we disabled the CD player’s physical button and checked its power requirements (5V).
+We identified the CD player motor’s positive and negative terminals.
+We learned how to control the CD tray to open and close using the H-bridge.
+Finally, We integrated all systems: when my hand gets close, the CD tray opens and the buzzer plays; when I move my hand away, both the CD tray and the buzzer turn off.
+
+![](../images/ELECTRICTEST.png)
+
+![](../images/SYSTEMDIAGRAM.png)
+
+![](../images/CODINGLOGIC.png)
+
+FINAL
