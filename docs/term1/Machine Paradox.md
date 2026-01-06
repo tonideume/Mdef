@@ -6,7 +6,8 @@ hide:
 # Machine Paradox Part 1: Unpackaging Tech Systems
 
 In this hands-on two-week seminar, we dive into understanding how machines work and how to give them new life. We start by gathering discarded machines and everyday devices, exploring ones that catch our interest. From there, we disassemble them piece by piece, studying each component. Through this, we realize that we often toss devices out of convenience or because we don't fully understand their electronics, when, with a little know-how, they could actually be fixed.
-<img src="images/005.jpg" alt="">
+
+COMPONENT DATA SHEET https://hackmd.io/@Exu-s2ucRkKy-xkK_meJKQ/S1RBwFnlZg
 
 Forensic Report: ...
 ===============
@@ -230,4 +231,6 @@ Finally, We integrated all systems: when my hand gets close, the CD tray opens a
 
 ![](../images/CODINGLOGIC.png)
 
-FINAL
+FINAL 
+
+![](../images/IMG_2620.HEIC)
