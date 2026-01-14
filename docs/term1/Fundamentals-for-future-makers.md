@@ -34,3 +34,14 @@ For the CNC session, we decided to continue developing the maze concept introduc
 <img src="../images/CNC.jpg" alt="">
 <img src="../images/3D_1.jpg" alt="">
 <img src="../images/3D_2.jpg" alt="">
+
+# Mold making
+
+The mold was produced by combining the laser-cut box with the 3D-printed maze, filling the cavity between them with silicone. This stage required careful preparation, as the silicone demanded extensive mixing and precise handling, making the process both time-consuming and delicate. An additional difficulty emerged from minor gaps between the assembled box components, which caused small leaks during the pour and required constant attention throughout the curing process.
+
+<img src="../images/mold_3.jpg" alt="">
+<img src="../images/mold_1.jpg" alt="">
+
+# Casting
+
+We chose a pine resin–based formula for casting in our silicone mold. The mixture combined pine resin with natural fillers, casting wax, and alcohol, following a multi-step heating and pouring process to achieve the final material. This stage was especially challenging for me, as it was completely new, yet also one of the most engaging parts of the project. Although the final result did not fully match our expectations, the process itself became a valuable learning experience.
