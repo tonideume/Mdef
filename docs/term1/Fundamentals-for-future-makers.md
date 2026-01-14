@@ -5,4 +5,6 @@ hide:
 
 # Fundamental for future makers
 
-In this hands-on two-week seminar, we dive into understanding how machines work and how to give them new life. We start by gathering discarded machines and everyday devices, exploring ones that catch our interest. From there, we disassemble them piece by piece, studying each component. Through this, we realize that we often toss devices out of convenience or because we don't fully understand their electronics, when, with a little know-how, they could actually be fixed.
+The Fabrication Fundamentals course focused on developing practical skills across a wide range of manufacturing processes. For this project, I collaborated with Ishan and Erandi. While I already had previous experience with both 3D printing and CNC machining, the course proved especially valuable in expanding my knowledge of mold-making and biomaterial casting, allowing me to explore new experimental approaches to fabrication.
+
+
