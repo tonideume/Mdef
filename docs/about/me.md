@@ -1,6 +1,6 @@
 # About
 
-![](../images/005.jpg)
+![](../images/COLLAGE.png)
 
 <section class="education-experience">
 
