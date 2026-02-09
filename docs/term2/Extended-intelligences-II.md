@@ -3,24 +3,13 @@ hide:
     - toc
 ---
 
-# Living with your own ideas
+# Extended Intelligence II
 
-# Prothesis to “become the best version of yourself”
+For this course, we were tasked with developing a concept that incorporated AI, specifically AI agents, ideally using them as a bridge between humans and technology.
 
-Day 1: Reading Glove
+We decided to focus on a music-related idea. Initially, we wanted to create an object that would allow users to jam with just their fingers, exploring the musical world while receiving real-time feedback from an AI agent. The AI would indicate mistakes, suggest improvements, and guide users on how to adjust their playing. However, we quickly realized that this approach was unfeasible due to the project’s time constraints (only two days) and technological limitations—current AI agents are too slow to provide instant responses to users’ movements in a seamless way. Despite this, we wanted to keep the essence of the musical jamming idea and simplify it.
 
-On the first day, I developed a prosthesis that I called the “Reading Glove.”
-It is constructed from a kitchen latex glove, elastic bands, and long wooden sticks. Its main function is to restrict the natural movement of the fingers, preventing me from closing my hand, forming a fist, or manipulating small objects—especially my phone.
+The revised concept allowed users to create rhythms by tapping on a sequence of touch sensors. The AI agent would then analyze the pattern and suggest a song with a similar rhythmic structure, providing a YouTube link for the user to explore.
 
-When I put on the glove, my hand stops behaving like a conventional hand and becomes a kind of bodily book stand. The design physically forces me to hold the book while simultaneously preventing automatic behaviors such as unlocking my phone, sending messages, or engaging in impulsive movements. In this way, the prosthesis modifies not only my posture and physical actions, but also my behavior and level of attention.
-
-Beyond its mechanical function, the act of putting on the glove becomes a conscious ritual. It is a declaration of intent: by wearing it, I communicate to my body and mind that it is time to read. This symbolic action creates a clear boundary between a state of distraction and a state of concentration, helping me enter a more disciplined mental mode.
-
-In this sense, the glove functions not only as a functional prosthesis, but also as a psychological prosthesis. It does not enhance my physical abilities, but rather my capacity for self-control. My “better version” does not emerge from amplifying my instincts, but from strategically suppressing them, designing an object that deceives my mind and forces me to behave in the way I desire. The prosthesis therefore does not replace a physical deficiency, but intervenes directly in my will.
-
-<img src="../images/IMG_2024.jpg" alt="">
-<img src="../images/IMG_2023.jpg" alt="">
-<img src="../images/IMG_2064.jpg" alt="">
-
-# Prothesis to “become something else”
+Materials used: Raspberry Pi, PC with Arduino, custom-made touch sensor, breadboard, AI agents
 
