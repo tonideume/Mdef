@@ -542,11 +542,16 @@
 <html>
 <head>
 <style>
+/* Aplica espacio arriba de cualquier bloque de texto o sección */
+.bloque {
+    margin-top: 60px; /* ajusta el valor según necesites */
+}
 /* BLOQUE DOS TEXTOS */
 .doble-texto {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .texto-izquierda {
     width: 50%;
@@ -555,6 +560,17 @@
 .texto-derecha {
     width: 50%;
       text-align: justify;
+}
+.texto-especial {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    white-space: pre-line;
+}
+.titulo {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 </style>
 </head>
@@ -567,7 +583,7 @@
     </div>
 
   <div class="texto-derecha">
- non-human perspectives (hers). Based on these connections, we proposed our prototype called ‘Nomadic Infrastructure for Urban Microecosystems.
+ non-human perspectives (hers). Based on these connections, we proposed our prototype called ‘Nomadic Infrastructure for Urban Microecosystems'.
     </div>
 </div>
 
@@ -575,6 +591,123 @@
 </html>
 
 <p><img src="../images/Captura de pantalla 2026-02-09 143012.png" alt=""></p>
+<div class="bloque">
+   <p>
+   <span class="titulo">Research Question</span>. 
+    </p>
+</div>
+<div class="bloque">
+   <p>
+    <span class="texto-especial">How can we create an autonomous mechanical organism, inspired by walking structures, that transports environmental conditions (shade, humidity, and shelter) to enable the survival of insects and other organisms in hostile urban environments?</span>. 
+    </p>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bloque Tres Columnas</title>
+<style>
+/* BLOQUE TRES COLUMNAS */
+.bloque-tres {
+    display: flex;         /* lado a lado */
+    gap: 10px;             /* espacio entre columnas */
+    margin-top: 10px;      /* espacio arriba del bloque */
+    margin-bottom: 40px;   /* espacio abajo del bloque */
+}
+.bloque-tres .columna {
+    flex: 1;               /* cada columna ocupa el mismo ancho */
+}
+.bloque-tres .columna-texto {
+    text-align: justify;   /* texto justificado */
+    line-height: 1.4;      /* espacio entre líneas */
+    white-space: pre-line; 
+}
+.bloque-tres .columna-imagen img {
+    width: auto;           /* imagen ajustada al ancho de su columna */
+    height: 100%;
+    display: block;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="bloque-tres">
+
+<!-- Columna de texto -->
+   <div class="columna columna-texto">
+        <p>   <span class="texto-especial">1-Sketching the initial idea</span>. 
+
+ Using this question as our guide, we began sketching and shaping the prototype, drawing inspiration from the fascinating mechanisms of Theo Jansen and his kinetic sculptures. The concept consist on create an machine that searches the perfect conditions for a microecosistem of his own.
+  It moves because urban hostility is not static. Heat, shade, dryness, and exposure shift constantly in the city and most non-human species lack the ability to escape them. Mobility becomes a survival strategy.      </p>
+    </div>
+
+<!-- Primera columna de imagen -->
+<div class="columna columna-imagen">
+        <img src="../images/boceto1.png" alt="Imagen 1">
+    </div>
+
+<!-- Segunda columna de imagen -->
+ <div class="columna columna-imagen">
+        <img src="../images/boceto2.png" alt="Imagen 2">
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<div class="bloque-tres">
+
+<!-- Columna de texto -->
+   <div class="columna columna-texto">
+        <p> <span class="texto-especial">2-Laser cutting the pieces</span>. 
+
+To achieve our goal, we needed: a mobile, mechanical, functional, and autonomous structure; a terrarium to hold soil, moss, and other elements to create suitable conditions for microorganisms; and the appropriate electronic components to measure the conditions of that micro-ecosystem. 
+We downloaded the files for the Theo Jansen mechanism for the moving structure and cut them using the laser cutter.
+        </p>
+    </div>
+
+<!-- Primera columna de imagen -->
+<div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00.jpeg" alt="Imagen 1">
+    </div>
+
+<!-- Segunda columna de imagen -->
+ <div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (1).jpeg" alt="Imagen 2">
+    </div>
+
+</div>
+
+<div class="bloque-tres">
+
+<!-- Columna de texto -->
+   <div class="columna columna-texto">
+        <p> <span class="texto-especial">2-Laser cutting the pieces</span>. 
+
+To achieve our goal, we needed: a mobile, mechanical, functional, and autonomous structure; a terrarium to hold soil, moss, and other elements to create suitable conditions for microorganisms; and the appropriate electronic components to measure the conditions of that micro-ecosystem. 
+We downloaded the files for the Theo Jansen mechanism for the moving structure and cut them using the laser cutter.
+        </p>
+    </div>
+
+<!-- Primera columna de imagen -->
+<div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00.jpeg" alt="Imagen 1">
+    </div>
+
+<!-- Segunda columna de imagen -->
+ <div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (1).jpeg" alt="Imagen 2">
+    </div>
+
+</div>
+
+<p></body>
+</html></p>
                 
                   
                     
@@ -583,7 +716,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 9, 2026 14:16:35 UTC">February 9, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 9, 2026 15:50:55 UTC">February 9, 2026</span>
     
   </small>
 </div>
