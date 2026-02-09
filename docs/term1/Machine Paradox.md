@@ -6,8 +6,7 @@ hide:
 # Machine Paradox Part 1: Unpackaging Tech Systems
 
 In this hands-on two-week seminar, we dive into understanding how machines work and how to give them new life. We start by gathering discarded machines and everyday devices, exploring ones that catch our interest. From there, we disassemble them piece by piece, studying each component. Through this, we realize that we often toss devices out of convenience or because we don't fully understand their electronics, when, with a little know-how, they could actually be fixed.
-
-COMPONENT DATA SHEET https://hackmd.io/@Exu-s2ucRkKy-xkK_meJKQ/S1RBwFnlZg
+<img src="images/005.jpg" alt="">
 
 Forensic Report: ...
 ===============
@@ -200,37 +199,3 @@ After the disassembly process, we meticulously examined each individual componen
 
 # Machine Paradox Part 2
 
-During the second week, our task was to create, using the functional devices, a machine whose purpose was useless.
-
-![](../images/PARTS.png)
-
-CONCEPT: A MEAN MACHINE
-
-After years in which machines have served
-humans, supported them, and simplified their
-lives, we have finally created something...
-different.
-
-Designed not to help, but to deceive humans
-(oh, how stupid they can be!)
-and annoy them with technological mischief.
-
-![](../images/SKETCHESSTABING.png)
-
-We first learned how to use the buzzer and generate sound.
-Then we learned how to use the ultrasonic sensor to detect distance.
-We combined both components so the buzzer activates when my hand approaches the sensor.
-After that, we disabled the CD player’s physical button and checked its power requirements (5V).
-We identified the CD player motor’s positive and negative terminals.
-We learned how to control the CD tray to open and close using the H-bridge.
-Finally, We integrated all systems: when my hand gets close, the CD tray opens and the buzzer plays; when I move my hand away, both the CD tray and the buzzer turn off.
-
-![](../images/ELECTRICTEST.png)
-
-![](../images/SYSTEMDIAGRAM.png)
-
-![](../images/CODINGLOGIC.png)
-
-FINAL 
-
-![](../images/IMG_2620.HEIC)
