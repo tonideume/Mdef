@@ -624,8 +624,9 @@
     white-space: pre-line; 
 }
 .bloque-tres .columna-imagen img {
-    width: auto;           /* imagen ajustada al ancho de su columna */
-    height: 100%;
+    width: 100%;         /* ocupa todo el ancho del contenedor */
+    height: 300px;       /* altura fija (ajústala a lo que necesites) */
+    object-fit: cover;
     display: block;
 }
 
@@ -641,8 +642,8 @@
    <div class="columna columna-texto">
         <p>   <span class="texto-especial">1-Sketching the initial idea</span>. 
 
- Using this question as our guide, we began sketching and shaping the prototype, drawing inspiration from the fascinating mechanisms of Theo Jansen and his kinetic sculptures. The concept consist on create an machine that searches the perfect conditions for a microecosistem of his own.
-  It moves because urban hostility is not static. Heat, shade, dryness, and exposure shift constantly in the city and most non-human species lack the ability to escape them. Mobility becomes a survival strategy.      </p>
+ Using this question as our guide, we began sketching and shaping the prototype, drawing inspiration from the fascinating mechanisms of Theo Jansen and his kinetic sculptures. 
+ The concept consist on create an machine that searches the perfect conditions for a microecosistem of his own. It moves because urban hostility is not static. Heat, shade, dryness, and exposure shift constantly in the city and most non-human species lack the ability to escape them. Mobility becomes a survival strategy.      </p>
     </div>
 
 <!-- Primera columna de imagen -->
@@ -687,21 +688,69 @@ We downloaded the files for the Theo Jansen mechanism for the moving structure a
 
 <!-- Columna de texto -->
    <div class="columna columna-texto">
-        <p> <span class="texto-especial">2-Laser cutting the pieces</span>. 
+        <p> <span class="texto-especial">3-Assembling
+         the structure</span>. 
 
-To achieve our goal, we needed: a mobile, mechanical, functional, and autonomous structure; a terrarium to hold soil, moss, and other elements to create suitable conditions for microorganisms; and the appropriate electronic components to measure the conditions of that micro-ecosystem. 
-We downloaded the files for the Theo Jansen mechanism for the moving structure and cut them using the laser cutter.
+We assembled the mechanism — 12 legs in total. We had to buy a lot of screws from the hardware store, and it was tricky to tighten the nuts just enough to allow movement without making the structure unstable.
+We mounted the two servomotors with the legs through a shaft, which would rotate gears when the motors were activated, causing the mechanism to move and the structure to start walking.
         </p>
     </div>
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00.jpeg" alt="Imagen 1">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (4).jpeg" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (1).jpeg" alt="Imagen 2">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.01 (3).jpeg" alt="Imagen 2">
+    </div>
+
+</div>
+
+</div>
+<div class="bloque-tres">
+
+<!-- Columna de texto -->
+   <div class="columna columna-texto">
+        <p> <span class="texto-especial">4-The terrarium</span>. 
+
+With the Arduino, we prepared the most important part of the prototype: 3 sensors in total — one humidity sensor, one photosensitive sensor, and one temperature sensor. This way, we tell the two servo motors when they need to move to search for a more suitable habitat for the organisms in the micro-ecosystem.
+We designed a terrarium to hold the soil, moss, and worms. We laser-cut it entirely in MDF, and then assembled it together with the structure, Arduino, and batteries.
+        </p>
+    </div>
+
+<!-- Primera columna de imagen -->
+<div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (2).jpeg" alt="Imagen 1">
+    </div>
+
+<!-- Segunda columna de imagen -->
+ <div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.01 (4).jpeg" alt="Imagen 2">
+    </div>
+
+</div>
+
+</div>
+<div class="bloque-tres">
+
+<!-- Columna de texto -->
+   <div class="columna columna-texto">
+        <p> <span class="texto-especial">5-Final</span>. 
+
+The final step was to assemble the mobile structure with the terrarium, which would interact through the sensors, and the Arduino would activate the servomotors when there was a lack or excess of light, humidity, or temperature.
+        </p>
+    </div>
+
+<!-- Primera columna de imagen -->
+<div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54 (1).jpeg" alt="Imagen 1">
+    </div>
+
+<!-- Segunda columna de imagen -->
+ <div class="columna columna-imagen">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54 (2).jpeg" alt="Imagen 2">
     </div>
 
 </div>
@@ -716,7 +765,7 @@ We downloaded the files for the Theo Jansen mechanism for the moving structure a
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 9, 2026 15:50:55 UTC">February 9, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 9, 2026 16:24:03 UTC">February 9, 2026</span>
     
   </small>
 </div>
