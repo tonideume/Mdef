@@ -256,12 +256,12 @@ The final step was to assemble the mobile structure with the terrarium, which wo
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54 (1).jpeg" alt="Imagen 1">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54.jpeg" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54 (2).jpeg" alt="Imagen 2">
+        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54 (1).jpeg" alt="Imagen 2">
     </div>
 
 </div>
@@ -269,4 +269,19 @@ The final step was to assemble the mobile structure with the terrarium, which wo
 </body>
 </html>
 
+<div class="bloque">
+   <p>
+   <span class="titulo">Result and reflections</span>. 
+    </p>
+</div>
+<div class="bloque">
+    <div class="bloque-texto">
+        <p>
+        In this one-week workshop, we worked as a team to create a prototype that would help us continue researching our field of interest and support the development of our main project for the Design Studio course. I carried out this activity with Erandi, whose research field focuses on studying alternative perspectives within the context of the city, moving away from the anthropocentric view. My field of study is urban mobility, so to create a prototype that would fit both fields, we looked for common points that would help us develop an idea.
+        </p>
+    </div>
 
+ <div class="bloque-imagen">
+        <img src="../images/_jsla04uz6a.avif">
+    </div>
+</div>
