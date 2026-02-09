@@ -80,6 +80,15 @@ hide:
     font-weight: bold;
     margin-bottom: 0px;
 }
+.bloque-video {
+    flex: 1;
+}
+.bloque-video video {
+    width: 100%;        /* ocupa todo el ancho de la columna */
+    height: 100%;       /* ocupa toda la altura del contenedor */
+    object-fit: cover;  /* rellena el espacio sin deformarse */
+    display: block;
+}
 </style>
 </head>
 
@@ -276,12 +285,39 @@ The final step was to assemble the mobile structure with the terrarium, which wo
 </div>
 <div class="bloque">
     <div class="bloque-texto">
-        <p>
-        In this one-week workshop, we worked as a team to create a prototype that would help us continue researching our field of interest and support the development of our main project for the Design Studio course. I carried out this activity with Erandi, whose research field focuses on studying alternative perspectives within the context of the city, moving away from the anthropocentric view. My field of study is urban mobility, so to create a prototype that would fit both fields, we looked for common points that would help us develop an idea.
+        <p><span class="texto-especial">Final prototype</span>
+
+ In this one-week workshop, we worked as a team to create a prototype that would help us continue researching our field of interest and support the development of our main project for the Design Studio course. I carried out this activity with Erandi, whose research field focuses on studying alternative perspectives within the context of the city, moving away from the anthropocentric view. My field of study is urban mobility, so to create a prototype that would fit both fields, we looked for common points that would help us develop an idea.
         </p>
     </div>
 
  <div class="bloque-imagen">
         <img src="../images/_jsla04uz6a.avif">
+    </div>
+</div>
+
+<div class="bloque">
+    <div class="bloque-texto">
+        <p><span class="texto-especial">Circuit diagram</span>
+
+ Looking at the final Arduino circuit diagram, we can see how the sensors, actuators, and microcontroller work together to make the prototype respond to environmental conditions. Ideally, we would have liked to include ultrasonic or proximity sensors so that the prototype could avoid obstacles and be more aware of its surroundings, but we didn’t have enough time to implement them. 
+        </p>
+    </div>
+
+ <div class="bloque-imagen">
+        <img src="../images/captura_de_pantalla_2026-02-06_144044_sFLHTnbYxC.avif">
+    </div>
+</div>
+
+<div class="bloque">
+    <div class="bloque-texto">
+        <p><span class="texto-especial">The main issue</span>
+
+The main problem we encountered with the project was the servomotors, which have a 180-degree range, preventing the mechanism from moving in a specific direction and only allowing it to sway slightly back and forth. If it weren’t for this issue and a few adjustments needed on the leg shafts, the prototype would have achieved its goal, but we will continue working to make it fully functional.
+        </p>
+    </div>
+
+ <div class="bloque-video">
+        <video src="../images/WhatsApp Video 2026-02-06 at 15.18.11.mp4" autoplay loop muted playsinline></video>
     </div>
 </div>
