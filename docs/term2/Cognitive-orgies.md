@@ -6,28 +6,7 @@ hide:
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-.bloque {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 80px; /* ← ESPACIO ABAJO */
-}
-.bloque {
-    display: flex;
-    gap: 20px;
-}
-.bloque-texto {
-    width: 40%;
-      text-align: justify;
-}
-.bloque-imagen {
-    width: 70%;
-}
-.bloque-imagen img {
-    width: 100%;
-}
 
-</style>
 </head>
 
 <body>
@@ -89,6 +68,47 @@ hide:
     object-fit: cover;  /* rellena el espacio sin deformarse */
     display: block;
 }
+.bloque-tres {
+    display: flex;         /* lado a lado */
+    gap: 10px;             /* espacio entre columnas */
+    margin-top: 10px;      /* espacio arriba del bloque */
+    margin-bottom: 40px;   /* espacio abajo del bloque */
+}
+.bloque-tres .columna {
+    flex: 1;               /* cada columna ocupa el mismo ancho */
+}
+.bloque-tres .columna-texto {
+    text-align: justify;   /* texto justificado */
+    line-height: 1.4;      /* espacio entre líneas */
+    white-space: pre-line; 
+}
+.bloque-tres .columna-imagen img {
+    width: 100%;         /* ocupa todo el ancho del contenedor */
+    height: 300px;       /* altura fija (ajústala a lo que necesites) */
+    object-fit: cover;
+    display: block;
+}
+.bloque {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px; /* ← ESPACIO ABAJO */
+}
+.bloque {
+    display: flex;
+    gap: 20px;
+}
+.bloque-texto {
+    width: 40%;
+      text-align: justify;
+}
+.bloque-imagen {
+    width: 70%;
+}
+.bloque-imagen img {
+    width: 100%;
+}
+
+
 </style>
 </head>
 
@@ -125,31 +145,7 @@ hide:
 <head>
 <meta charset="UTF-8">
 <title>Bloque Tres Columnas</title>
-<style>
-/* BLOQUE TRES COLUMNAS */
-.bloque-tres {
-    display: flex;         /* lado a lado */
-    gap: 10px;             /* espacio entre columnas */
-    margin-top: 10px;      /* espacio arriba del bloque */
-    margin-bottom: 40px;   /* espacio abajo del bloque */
-}
-.bloque-tres .columna {
-    flex: 1;               /* cada columna ocupa el mismo ancho */
-}
-.bloque-tres .columna-texto {
-    text-align: justify;   /* texto justificado */
-    line-height: 1.4;      /* espacio entre líneas */
-    white-space: pre-line; 
-}
-.bloque-tres .columna-imagen img {
-    width: 100%;         /* ocupa todo el ancho del contenedor */
-    height: 300px;       /* altura fija (ajústala a lo que necesites) */
-    object-fit: cover;
-    display: block;
-}
 
-
-</style>
 </head>
 
 <body>
