@@ -9,7 +9,7 @@ A weak signal is an indicator to identify a change in the future with little or 
 
 Inputs:
 
-<img src="../images/juego2.png" alt="">
+<img src="../../images/juego2.png" alt="">
 
 Narrative: 
 Across dispersed rural towns, a quiet but powerful international movement begins to form. Years of extractivism, land depletion, and the constant economic drain toward cities have pushed rural communities past their threshold. Tired of seeing their labor exploited and their environments stripped for urban benefit, they unify around an unexpected strategy: withdrawing their participation from the traditional primary sector. They resent the monotony, the reliance, the symbolic reminder that their lifestyles depend on the people they once treated as invisible. “Mushroom fatigue” becomes a cultural phenomenon, an allergic reaction to realizing one’s own fragility.
