@@ -1,7 +1,3 @@
----
-hide:
-    - toc
----
 
 # Extended Intelligence II
 
@@ -23,7 +19,7 @@ hide:
       text-align: justify;
 }
 .bloque-imagen {
-    width: 70%;
+    width: 40%;
 }
 .bloque-imagen img {
     width: 100%;
@@ -49,4 +45,17 @@ The revised concept allowed users to create rhythms by tapping on a sequence of 
 
 
 Materials used: Raspberry Pi, PC with Arduino, custom-made touch sensor, breadboard, AI agents
+
+The first step was to connect a touch sensor to the Raspberry Pi so we could send touch data to the AI agents. Since we didn’t have a ready-made sensor available, we built a simple one by attaching a thin copper sheet to the breadboard, using its conductivity to detect touch input.
+
+After that, we started working on the code to ensure that the agent would respond correctly to the touch signals. However, this is where we began to encounter several technical issues.
+
+We had very limited time to make the system fully functional, and despite our efforts — and the support from the teacher — we couldn’t manage to achieve the result we were aiming for. Even so, we still wanted to create a representation of how the system would work if we had successfully connected the physical inputs with the digital AI agents, so we focused on defining and organizing the agent workflow.
+
+The concept structure works as follows: once the experience starts, the user touches the sensor. When the touch is detected, the ‘Song AI Agent’ searches online for a track with a rhythm pattern similar to the one created by the user and then suggests it. A second agent generates lyrics based on a color selected by the user. After this, the cycle ends, although the experience can be repeated as many times as the user wants.
+
+# Extended Intelligence II
+
+I would really like to continue learning about AI on my own, deepening my understanding of how it works and how it can be applied in creative and technological projects. I plan to take every opportunity I can to learn more about it, such as workshops, courses, or practical experiences, like the AI workshop that will take place at Elisava next week.
+
 
