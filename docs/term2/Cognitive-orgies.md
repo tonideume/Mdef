@@ -1,13 +1,9 @@
----
-hide:
-    - toc
----
+
 # Cognitive orgies
 <!DOCTYPE html>
 <html>
 <head>
 <style>
-/* Aplica espacio arriba de cualquier bloque de texto o sección */
 .bloque {
     margin-top: 60px; /* ajusta el valor según necesites */
 }
@@ -222,7 +218,6 @@ We designed a terrarium to hold the soil, moss, and worms. We laser-cut it entir
 
 <div class="bloque-tres">
 
-<!-- Columna de texto -->
    <div class="columna columna-texto">
         <p> <span class="texto-especial">5-Final</span>. 
 
