@@ -6,6 +6,8 @@ The Fabrication Fundamentals course focused on developing practical skills acros
 
 <img src="images/IMG_2899.jpeg" alt="">
 <img src="images/IMG_2896.jpeg" alt="">
+![](images/IMG_2896.jpeg)
+![](images/IMG_2899.jpeg)
 
 # Laser cutting
 
