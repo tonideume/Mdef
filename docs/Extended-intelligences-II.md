@@ -39,7 +39,7 @@ The revised concept allowed users to create rhythms by tapping on a sequence of 
     </div>
 
  <div class="bloque-imagen">
-        <img src="../images/WhatsApp Image 2026-02-08 at 18.43.41 (1).jpeg">
+        <img src="images/WhatsApp Image 2026-02-08 at 18.43.41 (1).jpeg">
     </div>
 </div>
 

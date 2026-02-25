@@ -91,7 +91,7 @@
     </div>
 
  <div class="bloque-imagen">
-        <img src="../images/Captura de pantalla 2026-02-09 142615.png">
+        <img src="images/Captura de pantalla 2026-02-09 142615.png">
     </div>
 </div>
 <div class="doble-texto">
@@ -104,7 +104,7 @@
     </div>
 </div>
 
-<img src="../images/Captura de pantalla 2026-02-09 143012.png" alt="">
+<img src="images/Captura de pantalla 2026-02-09 143012.png" alt="">
 
 <div class="bloque">
    <p>
@@ -131,12 +131,12 @@
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/boceto1.png" alt="Imagen 1">
+        <img src="images/boceto1.png" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/boceto2.png" alt="Imagen 2">
+        <img src="images/boceto2.png" alt="Imagen 2">
     </div>
 
 </div>
@@ -155,12 +155,12 @@ We downloaded the files for the Theo Jansen mechanism for the moving structure a
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00.jpeg" alt="Imagen 1">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.10.00.jpeg" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (1).jpeg" alt="Imagen 2">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.10.00 (1).jpeg" alt="Imagen 2">
     </div>
 
 </div>
@@ -179,12 +179,12 @@ We mounted the two servomotors with the legs through a shaft, which would rotate
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (4).jpeg" alt="Imagen 1">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.10.00 (4).jpeg" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.01 (3).jpeg" alt="Imagen 2">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.10.01 (3).jpeg" alt="Imagen 2">
     </div>
 
 </div>
@@ -204,12 +204,12 @@ We designed a terrarium to hold the soil, moss, and worms. We laser-cut it entir
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.00 (2).jpeg" alt="Imagen 1">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.10.00 (2).jpeg" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.10.01 (4).jpeg" alt="Imagen 2">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.10.01 (4).jpeg" alt="Imagen 2">
     </div>
 
 </div>
@@ -227,12 +227,12 @@ The final step was to assemble the mobile structure with the terrarium, which wo
 
 <!-- Primera columna de imagen -->
 <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54.jpeg" alt="Imagen 1">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.25.54.jpeg" alt="Imagen 1">
     </div>
 
 <!-- Segunda columna de imagen -->
  <div class="columna columna-imagen">
-        <img src="../images/WhatsApp Image 2026-02-06 at 14.25.54 (1).jpeg" alt="Imagen 2">
+        <img src="images/WhatsApp Image 2026-02-06 at 14.25.54 (1).jpeg" alt="Imagen 2">
     </div>
 
 </div>
@@ -252,7 +252,7 @@ The final step was to assemble the mobile structure with the terrarium, which wo
     </div>
 
  <div class="bloque-imagen">
-        <img src="../images/_jsla04uz6a.avif">
+        <img src="images/_jsla04uz6a.avif">
     </div>
 </div>
 
@@ -265,7 +265,7 @@ The final step was to assemble the mobile structure with the terrarium, which wo
     </div>
 
  <div class="bloque-imagen">
-        <img src="../images/captura_de_pantalla_2026-02-06_144044_sFLHTnbYxC.avif">
+        <img src="images/captura_de_pantalla_2026-02-06_144044_sFLHTnbYxC.avif">
     </div>
 </div>
 
@@ -278,7 +278,7 @@ The main problem we encountered with the project was the servomotors, which have
     </div>
 
  <div class="bloque-video">
-        <video src="../images/WhatsApp Video 2026-02-06 at 15.18.11.mp4" autoplay loop muted playsinline></video>
+        <video src="images/WhatsApp Video 2026-02-06 at 15.18.11.mp4" autoplay loop muted playsinline></video>
     </div>
 </div>
 
