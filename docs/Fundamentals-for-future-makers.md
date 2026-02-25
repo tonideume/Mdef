@@ -1,7 +1,4 @@
----
-hide:
-    - toc
----
+
 
 # Fundamental for future makers
 
