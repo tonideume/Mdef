@@ -18,6 +18,7 @@ Beyond its mechanical function, the act of putting on the glove becomes a consci
 
 In this sense, the glove functions not only as a functional prosthesis, but also as a psychological prosthesis. It does not enhance my physical abilities, but rather my capacity for self-control. My “better version” does not emerge from amplifying my instincts, but from strategically suppressing them, designing an object that deceives my mind and forces me to behave in the way I desire. The prosthesis therefore does not replace a physical deficiency, but intervenes directly in my will.
 
+
 <img src="images/IMG_2024.jpg" alt="">
 <img src="images/IMG_2023.jpg" alt="">
 <img src="images/IMG_2064.jpg" alt="">
