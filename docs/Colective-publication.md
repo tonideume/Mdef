@@ -3,7 +3,7 @@ hide:
     - toc
 ---
 
-# Colective Publication
+# Collective Publication
 
 # Draft Pictorial
 
