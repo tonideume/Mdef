@@ -1,0 +1,265 @@
+/* ============================================================
+   MDEF // Antonio García Fernández — base.css
+   Reset, design tokens, typography, layout, navigation, footer
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --bg:           #000000;
+  --bg-alt:       #050805;
+  --bg-elev:      #0a0f0a;
+  --green:        #00ff41;
+  --green-soft:   #4dff7a;
+  --green-dim:    #006622;
+  --green-deep:   #003311;
+  --green-glow:   rgba(0, 255, 65, 0.55);
+  --text:         #c8ffd4;
+  --text-dim:     #6e9e7a;
+  --border:       rgba(0, 255, 65, 0.18);
+  --border-strong:rgba(0, 255, 65, 0.45);
+  --shadow-glow:  0 0 24px rgba(0, 255, 65, 0.35);
+  --shadow-card:  0 0 0 1px var(--border), 0 0 40px rgba(0, 255, 65, 0.06) inset;
+  --font-display: 'Orbitron', system-ui, sans-serif;
+  --font-mono:    'Share Tech Mono', ui-monospace, monospace;
+  --font-body:    'Rajdhani', system-ui, sans-serif;
+  --container:    1320px;
+  --gutter:       clamp(1.25rem, 3vw, 2.5rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--bg); color-scheme: dark; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  overflow-x: hidden;
+  cursor: none;
+}
+@media (pointer: coarse) { body { cursor: auto; } }
+
+img, video { max-width: 100%; height: auto; display: block; }
+a { color: var(--green); text-decoration: none; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+  margin: 0 0 0.75rem;
+  color: #eaffe9;
+  text-transform: uppercase;
+}
+h1 { font-size: clamp(2.4rem, 5.5vw, 4.6rem); line-height: 1.05; font-weight: 900; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.4rem); font-weight: 700; }
+h3 { font-size: 1.15rem; font-weight: 700; letter-spacing: 0.18em; }
+p  { margin: 0 0 1rem; }
+
+::selection { background: var(--green); color: #000; }
+
+/* Container & section spacing */
+.container { width: min(100% - var(--gutter)*2, var(--container)); margin-inline: auto; }
+.section { padding: clamp(3rem, 7vw, 6rem) 0; position: relative; }
+.section--tight { padding: clamp(2rem, 4vw, 3rem) 0; }
+
+/* Reusable HUD frame */
+.frame {
+  position: relative;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+}
+.frame::before, .frame::after,
+.frame > .corner-tl, .frame > .corner-tr, .frame > .corner-bl, .frame > .corner-br {
+  content: ""; position: absolute; width: 14px; height: 14px;
+  border-color: var(--green); border-style: solid;
+}
+.frame::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }
+.frame::after  { top: -1px; right: -1px; border-width: 1px 1px 0 0; }
+.frame > .corner-bl { bottom: -1px; left: -1px;  border-width: 0 0 1px 1px; }
+.frame > .corner-br { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }
+
+/* Mono label */
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.32em;
+  color: var(--green-dim);
+  text-transform: uppercase;
+}
+.label--bright { color: var(--green); }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; gap: 0.7rem;
+  font-family: var(--font-mono); font-size: 0.85rem;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  padding: 0.95rem 1.6rem;
+  background: transparent;
+  color: var(--green);
+  border: 1px solid var(--green);
+  cursor: none;
+  position: relative;
+  transition: background .25s ease, color .25s ease, box-shadow .25s ease;
+}
+.btn::after {
+  content: ""; position: absolute; inset: 0;
+  background: var(--green); transform: scaleX(0); transform-origin: left;
+  transition: transform .35s cubic-bezier(.5,.05,.2,1); z-index: -1;
+}
+.btn:hover { color: #000; box-shadow: var(--shadow-glow); }
+.btn:hover::after { transform: scaleX(1); }
+.btn--ghost { border-color: var(--border-strong); color: var(--text); }
+.btn--ghost:hover { color: #000; border-color: var(--green); }
+
+/* ==================== Navigation ==================== */
+.nav {
+  position: sticky; top: 0; z-index: 80;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.85rem clamp(1.25rem, 3vw, 2rem);
+  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: var(--font-display); font-weight: 900;
+  font-size: 1.1rem; letter-spacing: 0.25em; color: #eaffe9;
+  display: flex; flex-direction: column; line-height: 1;
+}
+.nav-logo span {
+  font-family: var(--font-mono); font-size: 0.6rem;
+  color: var(--green-dim); letter-spacing: 0.3em; margin-top: 0.35rem;
+}
+.nav-logo:hover { color: var(--green); text-shadow: 0 0 12px var(--green-glow); }
+
+.nav-links {
+  list-style: none; display: flex; gap: 1.6rem; margin: 0; padding: 0; align-items: center;
+}
+.nav-links > li { position: relative; }
+.nav-links a {
+  font-family: var(--font-mono); font-size: 0.78rem;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--text); padding: 0.5rem 0; position: relative;
+  transition: color .2s ease;
+}
+.nav-links a::after {
+  content: ""; position: absolute; left: 0; bottom: -2px;
+  width: 100%; height: 1px; background: var(--green);
+  transform: scaleX(0); transform-origin: right;
+  transition: transform .3s ease;
+}
+.nav-links a:hover { color: var(--green); text-shadow: 0 0 8px var(--green-glow); }
+.nav-links a:hover::after,
+.nav-links a[aria-current="page"]::after { transform: scaleX(1); transform-origin: left; }
+.nav-links a[aria-current="page"] { color: var(--green); }
+
+.nav-dropdown > .nav-trigger { cursor: none; }
+.nav-dropdown-menu {
+  position: absolute; top: calc(100% + 6px); left: -1rem;
+  min-width: 240px;
+  background: var(--bg-elev); border: 1px solid var(--border-strong);
+  padding: 0.8rem 0; opacity: 0; pointer-events: none;
+  transform: translateY(-6px); transition: opacity .2s ease, transform .2s ease;
+  box-shadow: var(--shadow-glow);
+}
+.nav-dropdown:hover > .nav-dropdown-menu,
+.nav-dropdown:focus-within > .nav-dropdown-menu,
+.nav-dropdown.is-open > .nav-dropdown-menu {
+  opacity: 1; pointer-events: auto; transform: translateY(0);
+}
+.nav-dropdown-menu .nav-term-label {
+  display: block; padding: 0.2rem 1.2rem 0.6rem;
+  color: var(--green-dim); font-family: var(--font-mono);
+  font-size: 0.6rem; letter-spacing: 0.32em;
+  border-bottom: 1px dashed var(--border); margin-bottom: 0.4rem;
+}
+.nav-dropdown-menu a {
+  display: block; padding: 0.55rem 1.2rem;
+  font-size: 0.78rem; letter-spacing: 0.18em;
+}
+.nav-dropdown-menu a::after { display: none; }
+.nav-dropdown-menu a:hover { background: rgba(0,255,65,0.08); color: var(--green); }
+.nav-dropdown-menu a.disabled { color: var(--green-deep); pointer-events: none; }
+
+.nav-toggle {
+  display: none; background: none; border: 1px solid var(--border-strong);
+  color: var(--green); padding: 0.45rem 0.7rem; font-family: var(--font-mono);
+  letter-spacing: 0.2em; font-size: 0.7rem; cursor: none;
+}
+
+@media (max-width: 900px) {
+  .nav-toggle { display: inline-block; }
+  .nav-links {
+    position: absolute; top: 100%; right: 0; left: 0;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    flex-direction: column; align-items: stretch; gap: 0;
+    padding: 0.75rem 1rem; max-height: 0; overflow: hidden;
+    transition: max-height .3s ease, padding .3s ease;
+  }
+  .nav.is-open .nav-links { max-height: 80vh; padding: 1rem; }
+  .nav-links > li { border-bottom: 1px dashed var(--border); }
+  .nav-links a { display: block; padding: 0.85rem 0; }
+  .nav-dropdown-menu {
+    position: static; opacity: 1; pointer-events: auto;
+    transform: none; box-shadow: none; border: none; padding: 0 0 0.5rem 0.6rem;
+    min-width: 0; max-height: 0; overflow: hidden; transition: max-height .3s ease;
+  }
+  .nav-dropdown.is-open .nav-dropdown-menu { max-height: 600px; }
+}
+
+/* ==================== Footer ==================== */
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 0 2rem; margin-top: 4rem;
+  font-family: var(--font-mono); font-size: 0.75rem;
+  color: var(--text-dim); letter-spacing: 0.2em;
+}
+.footer-grid {
+  display: grid; gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.footer h4 {
+  font-family: var(--font-mono); font-size: 0.7rem; color: var(--green);
+  letter-spacing: 0.32em; margin-bottom: 0.8rem;
+}
+.footer a { color: var(--text); }
+.footer a:hover { color: var(--green); }
+.footer-bottom {
+  margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed var(--border);
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem;
+  color: var(--green-dim);
+}
+
+/* ==================== Breadcrumbs ==================== */
+.breadcrumb {
+  font-family: var(--font-mono); font-size: 0.72rem;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--green-dim); margin: 1.5rem 0 2rem;
+}
+.breadcrumb a { color: var(--text-dim); }
+.breadcrumb a:hover { color: var(--green); }
+.breadcrumb-sep { color: var(--green-dim); margin: 0 0.6rem; }
+.breadcrumb-current { color: var(--green); }
+
+/* ==================== Utilities ==================== */
+.grid { display: grid; gap: clamp(1rem, 2vw, 1.75rem); }
+.grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) {
+  .grid--2, .grid--3, .grid--4 { grid-template-columns: 1fr; }
+}
+.text-mono  { font-family: var(--font-mono); }
+.text-disp  { font-family: var(--font-display); }
+.text-green { color: var(--green); }
+.muted      { color: var(--text-dim); }
+.divider    { height: 1px; background: var(--border); margin: 2rem 0; border: 0; }
+.tag {
+  display: inline-block; padding: 0.25rem 0.7rem;
+  border: 1px solid var(--border-strong);
+  font-family: var(--font-mono); font-size: 0.68rem;
+  letter-spacing: 0.24em; color: var(--green); text-transform: uppercase;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+}
