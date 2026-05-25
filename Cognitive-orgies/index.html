@@ -400,300 +400,150 @@
                   
                 
                 
-                  <h1>Cognitive orgies</h1>
-                
                 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nomadic Infrastructure · Cognitive Orgies Workshop</title>
+    <title>Nomadic Infrastructure · Theo Jansen Workshop</title>
     <style>
-        /* RESET Y ESTILOS GLOBALES */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
-            background: #eef2f0;
-            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-            line-height: 1.5;
-            color: #1a2a1f;
-            padding: 40px 20px;
-        }
- /* CONTENEDOR PRINCIPAL: ANCHO MÁXIMO LEGIBLE */
-        .main-container {
-            max-width: 1200px;
+            font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+            max-width: 900px;
             margin: 0 auto;
-            background: white;
-            border-radius: 32px;
-            box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.1);
-            padding: 40px 48px;
+            padding: 40px 20px;
+            background: #fafaf7;
+            color: #1a1e24;
+            line-height: 1.5;
         }
- /* RESPONSIVE */
-        @media (max-width: 800px) {
-            body {
-                padding: 20px 12px;
-            }
-            .main-container {
-                padding: 24px 20px;
-            }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.25rem;
         }
- /* TÍTULOS */
-        .section-title {
-            font-size: 28px;
-            font-weight: 700;
-            margin: 40px 0 20px 0;
-            padding-left: 16px;
-            border-left: 6px solid #2c7a4b;
-            color: #1e3a2f;
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #2b7a4b;
+            padding-left: 1rem;
         }
-        .subtitle-highlight {
-            font-size: 22px;
-            font-weight: 700;
-            color: #1f6e43;
-            display: inline-block;
-            margin-bottom: 12px;
+        h3 {
+            font-size: 1.2rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #1f5e3a;
         }
-        /* BLOQUE FLEX: TEXTO + IMAGEN (50% - 50%) */
-        .flex-block {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 40px;
-            margin-bottom: 50px;
-            align-items: center;
-        }
-        .flex-text {
-            flex: 1;
-            min-width: 250px;
+        p {
+            margin-bottom: 1rem;
             text-align: justify;
         }
-        .flex-media {
-            flex: 1;
-            min-width: 250px;
-        }
-        .flex-media img, .flex-media video {
-            width: 100%;
-            border-radius: 24px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 12px;
+            background: #eae8e0;
             display: block;
-            background: #e9e9df;
         }
-        /* orden invertido */
-        .reverse {
-            flex-direction: row-reverse;
-        }
- /* DOBLE COLUMNA DE TEXTO */
-        .double-col {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 40px;
-            margin: 30px 0 30px 0;
-        }
-        .double-col > div {
-            flex: 1;
-            text-align: justify;
-            font-size: 1rem;
-        }
-/* BLOQUE DE TRES COLUMNAS (texto + dos imágenes) */
-        .triple-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin: 45px 0 55px 0;
-        }
-        .triple-text {
-            flex: 1.2;
-            min-width: 220px;
-            text-align: justify;
-        }
-        .triple-img {
-            flex: 1;
-            min-width: 180px;
-        }
-        .triple-img img {
-            width: 100%;
-            height: 260px;
-            object-fit: cover;
-            border-radius: 20px;
-            background: #dadacf;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.05);
-        }
-        @media (max-width: 780px) {
-            .triple-img img {
-                height: auto;
-                max-height: 250px;
-            }
-        }
-/* PREGUNTA DESTACADA */
-        .question-card {
-            background: #eef5ea;
-            padding: 28px 32px;
-            border-radius: 32px;
-            margin: 20px 0 30px 0;
-            text-align: center;
-        }
-        .question-card p {
-            font-size: 24px;
-            font-weight: 500;
-            line-height: 1.3;
-            color: #1a472a;
-        }
-/* VIDEO WRAPPER */
-        .video-wrapper {
-            border-radius: 24px;
-            overflow: hidden;
-            background: #000;
-        }
-        .video-wrapper video {
-            width: 100%;
+        video {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 12px;
+            background: #1a1a1a;
             display: block;
         }
         hr {
-            margin: 40px 0 20px;
+            margin: 2rem 0;
             border: none;
             height: 1px;
-            background: linear-gradient(to right, #ccc, transparent);
+            background: #ccc;
         }
-        .caption {
-            font-size: 13px;
+        .question-box {
+            background: #eef5ea;
+            padding: 1.5rem;
+            border-radius: 16px;
+            margin: 1rem 0;
             text-align: center;
-            color: #5f6c5b;
-            margin-top: 10px;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-<div class="main-container">
-<!-- 1. TEXTO INTRO + IMAGEN (primer bloque) -->
-    <div class="flex-block">
-        <div class="flex-text">
-            <p><strong class="subtitle-highlight">🌀 Cognitive Orgies · workshop week</strong></p>
-            <p>In this one-week workshop, we worked as a team to create a prototype that would help us continue researching our field of interest and support the development of our main project for the Design Studio course. I carried out this activity with Erandi, whose research field focuses on studying alternative perspectives within the context of the city, moving away from the anthropocentric view. My field of study is urban mobility, so to create a prototype that would fit both fields, we looked for common points that would help us develop an idea.</p>
-        </div>
-        <div class="flex-media">
-            <!-- REEMPLAZA image1.jpg por tu imagen real -->
-            ![](images/Captura de pantalla 2026-02-09 142615.jpg)
-        </div>
-    </div>
-<!-- DOBLE TEXTO (conexión de intereses) -->
-    <div class="double-col">
-        <div>We ended up finding points of connection in our interests and in relation to our fields of study, specifically in low-tech approaches, decentralization, and urban space. We linked these points to our respective research areas: mobility (mine) and multispecies and</div>
-        <div>non-human perspectives (hers). Based on these connections, we proposed our prototype called <strong>‘Nomadic Infrastructure for Urban Microecosystems’</strong>.</div>
-    </div>
- <!-- IMAGEN CENTRAL (ancho completo) -->
-    <div style="margin: 20px 0 35px;">
-        <img src="images/Captura de pantalla 2026-02-09 143012.png" alt="concept overview" style="width:100%; border-radius: 28px; box-shadow: 0 6px 14px rgba(0,0,0,0.05);">
-    </div>
- <!-- RESEARCH QUESTION -->
-    <div class="section-title">📡 Research Question</div>
-    <div class="question-card">
-        <p>How can we create an autonomous mechanical organism, inspired by walking structures, that transports environmental conditions (shade, humidity, and shelter) to enable the survival of insects and other organisms in hostile urban environments?</p>
-    </div>
- <!-- 1 - Sketching -->
-    <div class="triple-row">
-        <div class="triple-text">
-            <span class="subtitle-highlight">1 · Sketching the initial idea</span>
-            <p>Using this question as our guide, we began sketching and shaping the prototype, drawing inspiration from the fascinating mechanisms of Theo Jansen and his kinetic sculptures. The concept consists of creating a machine that searches the perfect conditions for a microecosystem of its own. It moves because urban hostility is not static. Heat, shade, dryness, and exposure shift constantly in the city and most non-human species lack the ability to escape them. Mobility becomes a survival strategy.</p>
-        </div>
-        <div class="triple-img"><img src="images/boceto1.png" alt="sketch 1"><div class="caption">walking sketches</div></div>
-        <div class="triple-img"><img src="images/boceto2.png" alt="sketch 2"><div class="caption">kinetic mechanism</div></div>
-    </div>
-<!-- 2 - Laser cutting -->
-    <div class="triple-row">
-        <div class="triple-text">
-            <span class="subtitle-highlight">2 · Laser cutting the pieces</span>
-            <p>To achieve our goal, we needed: a mobile, mechanical, functional, and autonomous structure; a terrarium to hold soil, moss, and other elements to create suitable conditions for microorganisms; and the appropriate electronic components to measure the conditions of that micro-ecosystem. We downloaded the files for the Theo Jansen mechanism for the moving structure and cut them using the laser cutter.</p>
-        </div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.10.00.jpeg" alt="laser cut pieces"></div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.10.00 (1).jpeg" alt="mdf parts"></div>
-    </div>
- <!-- 3 - Assembling -->
-    <div class="triple-row">
-        <div class="triple-text">
-            <span class="subtitle-highlight">3 · Assembling the structure</span>
-            <p>We assembled the mechanism — 12 legs in total. We had to buy a lot of screws from the hardware store, and it was tricky to tighten the nuts just enough to allow movement without making the structure unstable. We mounted the two servomotors with the legs through a shaft, which would rotate gears when the motors were activated, causing the mechanism to move and the structure to start walking.</p>
-        </div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.10.00 (4).jpeg" alt="leg assembly"></div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.10.01 (3).jpeg" alt="servo mount"></div>
-    </div>
-<!-- 4 - Terrarium & sensors -->
-    <div class="triple-row">
-        <div class="triple-text">
-            <span class="subtitle-highlight">4 · The terrarium & sensors</span>
-            <p>With the Arduino, we prepared the most important part of the prototype: 3 sensors in total — one humidity sensor, one photosensitive sensor, and one temperature sensor. This way, we tell the two servo motors when they need to move to search for a more suitable habitat for the organisms in the micro-ecosystem. We designed a terrarium to hold the soil, moss, and worms. We laser-cut it entirely in MDF, and then assembled it together with the structure, Arduino, and batteries.</p>
-        </div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.10.00 (2).jpeg" alt="terrarium design"></div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.10.01 (4).jpeg" alt="sensor wiring"></div>
-    </div>
-<!-- 5 - Final step -->
-    <div class="triple-row">
-        <div class="triple-text">
-            <span class="subtitle-highlight">5 · Final assembly</span>
-            <p>The final step was to assemble the mobile structure with the terrarium, which would interact through the sensors, and the Arduino would activate the servomotors when there was a lack or excess of light, humidity, or temperature.</p>
-        </div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.25.54.jpeg" alt="final prototype 1"></div>
-        <div class="triple-img"><img src="images/WhatsApp Image 2026-02-06 at 14.25.54 (1).jpeg" alt="final prototype 2"></div>
-    </div>
- <!-- RESULTADOS -->
-    <div class="section-title">📌 Final result </div>
-<!-- Final prototype (texto + imagen) -->
-    <div class="flex-block">
-        <div class="flex-text">
-            <span class="subtitle-highlight">Final prototype</span>
-            <p>The prototype merges low-tech walking principles with responsive ecology: a self-contained terrarium carried by a 12-legged kinetic chassis. Sensors detect critical fluctuations and trigger movement – an attempt to give a micro-ecosystem agency to flee hostile spots. Though still a work in progress, it embodies a shift from static green infrastructure to nomadic, multispecies care.</p>
-            <p>This collaborative prototype opened new intersections between mobility studies and non-human perspectives. We realized that movement can be a form of micro-refuge.</p>
-        </div>
-        <div class="flex-media">
-            <img src="images/_jsla04uz6a.avif" alt="full prototype">
-        </div>
-    </div>
- <!-- Circuit diagram -->
-    <div class="flex-block reverse">
-        <div class="flex-text">
-            <span class="subtitle-highlight">Circuit diagram</span>
-            <p>Looking at the final Arduino circuit diagram, we can see how the sensors, actuators, and microcontroller work together to make the prototype respond to environmental conditions. Ideally, we would have liked to include ultrasonic or proximity sensors so that the prototype could avoid obstacles and be more aware of its surroundings, but we didn’t have enough time to implement them.</p>
-            <p>Nevertheless, the current logic (humidity & temp & light) already allows reactive displacement, which represents a fundamental step towards autonomous ecological machines.</p>
-        </div>
-        <div class="flex-media">
-            <img src="images/captura_de_pantalla_2026-02-06_144044_sFLHTnbYxC.avif" alt="circuit diagram">
-        </div>
-    </div>
-<!-- Main issue + VIDEO -->
-    <div class="flex-block">
-        <div class="flex-text">
-            <span class="subtitle-highlight">⚙️ The main issue</span>
-            <p>The main problem we encountered with the project was the servomotors, which have a 180-degree range, preventing the mechanism from moving in a specific direction and only allowing it to sway slightly back and forth. If it weren't for this issue and a few adjustments needed on the leg shafts, the prototype would have achieved its goal, but we will continue working to make it fully functional.</p>
-            <p>Future iterations will use continuous rotation servos or stepper motors, plus improved crankshaft alignment. However, the conceptual and mechanical foundations are solid.</p>
-        </div>
-        <div class="flex-media">
-            <div class="video-wrapper">
-                <video src="images/WhatsApp Video 2026-02-06 at 15.18.11.mp4" autoplay loop muted playsinline></video>
-            </div>
-            <div class="caption">Prototype test: limited motion due to 180° servo range</div>
-        </div>
-    </div>
-    <!-- ========== REFLECTIONS FINAL SECTION ========== -->
-<div class="section-title" style="margin-top: 60px;">✨ Reflections</div>
 
-<div style="background: linear-gradient(135deg, #f0f4eb 0%, #e6ede0 100%); border-radius: 28px; padding: 2.2rem 2rem; margin: 20px 0 30px 0; box-shadow: 0 8px 18px rgba(0,0,0,0.05);">
-    <p style="font-size: 1.08rem; line-height: 1.6; margin-bottom: 1.4rem; text-align: justify;">
-        This project has been a turning point in my way of understanding mobility. Beyond the urban planning charts, traffic flows, and human-centered efficiency metrics, building the <strong>Nomadic Infrastructure</strong> forced me to get my hands dirty — literally assembling legs, calibrating sensors, and failing with servomotors. It helped me realize that <strong>creating complex mechanical structures</strong> is not just an engineering challenge but a design speculation tool.
-    </p>
-    <p style="font-size: 1.08rem; line-height: 1.6; margin-bottom: 1.4rem; text-align: justify;">
-        I discovered that <strong>mobility does not have to be fast, nor anthropocentric</strong>. The slow, fragile, almost clumsy walk of our twelve-legged organism proposed an alternative: movement as survival, not as optimization. This speculative shift opens unexpected territories — what if drones in the future do not deliver packages but carry micro-refuges for pollinators? What if robotic mobility is reimagined as a multispecies choreography rather than logistics?
-    </p>
-    <p style="font-size: 1.08rem; line-height: 1.6; margin-bottom: 0; text-align: justify;">
-        The workshop allowed me to <strong>speculate with robotic mobility for other species</strong>, to think of machines that serve ecological thresholds instead of human desires. I am leaving this process with a new sensitivity: designing movement means designing attention, care, and the right to escape hostile ground — whether you are a worm, a beetle, or a future urban drone.
-    </p>
+<h1>🚶 Nomadic Infrastructure for Urban Microecosystems</h1>
+<p><strong>Antonio García Fernández</strong> · Workshop collaboration with Erandi · Design Studio Course</p>
+
+<hr>
+
+<h2>Context</h2>
+<p>In this one-week workshop, we worked as a team to create a prototype that would help us continue researching our field of interest and support the development of our main project for the Design Studio course. I carried out this activity with Erandi, whose research field focuses on studying alternative perspectives within the context of the city, moving away from the anthropocentric view. My field of study is urban mobility, so to create a prototype that would fit both fields, we looked for common points that would help us develop an idea.</p>
+
+<img src="Captura_de_pantalla_2026-02-09_142615.jpg" alt="workshop process">
+
+<h2>Points of Connection</h2>
+<p>We ended up finding points of connection in our interests and in relation to our fields of study, specifically in low-tech approaches, decentralization, and urban space. We linked these points to our respective research areas: mobility (mine) and multispecies and non-human perspectives (hers). Based on these connections, we proposed our prototype called <strong>‘Nomadic Infrastructure for Urban Microecosystems’</strong>.</p>
+
+<img src="Captura_de_pantalla_2026-02-09_143012.jpg" alt="concept">
+
+<h2>Research Question</h2>
+<div class="question-box">
+    <p>How can we create an autonomous mechanical organism, inspired by walking structures, that transports environmental conditions (shade, humidity, and shelter) to enable the survival of insects and other organisms in hostile urban environments?</p>
 </div>
-    <hr>
-    <div style="background: #F5F6F0; border-radius: 24px; padding: 28px; margin-top: 20px;">
-        <p style="text-align: center; font-style: italic; font-size: 1rem;">“Nomadic Infrastructure for Urban Microecosystems” questions the static nature of green design. By merging Theo Jansen’s walking creatures with real-time environmental sensing, we propose that future urban refuges might <strong>walk, adapt and search for survival</strong> — a small but radical shift beyond anthropocentric cities.</p>
-    </div>
 
-</div> <!-- cierre main-container -->
+<h2>1 · Sketching the initial idea</h2>
+<p>Using this question as our guide, we began sketching and shaping the prototype, drawing inspiration from the fascinating mechanisms of Theo Jansen and his kinetic sculptures. The concept consists of creating a machine that searches for the perfect conditions for a microecosystem of its own. It moves because urban hostility is not static. Heat, shade, dryness, and exposure shift constantly in the city and most non-human species lack the ability to escape them. Mobility becomes a survival strategy.</p>
+<img src="boceto1.jpg" alt="sketch 1">
+<img src="boceto2.jpg" alt="sketch 2">
+
+<h2>2 · Laser cutting the pieces</h2>
+<p>To achieve our goal, we needed: a mobile, mechanical, functional, and autonomous structure; a terrarium to hold soil, moss, and other elements to create suitable conditions for microorganisms; and the appropriate electronic components to measure the conditions of that micro-ecosystem. We downloaded the files for the Theo Jansen mechanism for the moving structure and cut them using the laser cutter.</p>
+<img src="WhatsApp_Image_2026-02-06_at_14.10.00.jpg" alt="laser cut 1">
+<img src="WhatsApp_Image_2026-02-06_at_14.10.00_1.jpg" alt="laser cut 2">
+
+<h2>3 · Assembling the structure</h2>
+<p>We assembled the mechanism — 12 legs in total. We had to buy a lot of screws from the hardware store, and it was tricky to tighten the nuts just enough to allow movement without making the structure unstable. We mounted the two servomotors with the legs through a shaft, which would rotate gears when the motors were activated, causing the mechanism to move and the structure to start walking.</p>
+<img src="WhatsApp_Image_2026-02-06_at_14.10.00_4.jpg" alt="assembly 1">
+<img src="WhatsApp_Image_2026-02-06_at_14.10.01_3.jpg" alt="assembly 2">
+
+<h2>4 · The terrarium & sensors</h2>
+<p>With the Arduino, we prepared the most important part of the prototype: 3 sensors in total — one humidity sensor, one photosensitive sensor, and one temperature sensor. This way, we tell the two servo motors when they need to move to search for a more suitable habitat for the organisms in the micro-ecosystem. We designed a terrarium to hold the soil, moss, and worms. We laser-cut it entirely in MDF, and then assembled it together with the structure, Arduino, and batteries.</p>
+<img src="WhatsApp_Image_2026-02-06_at_14.10.00_2.jpg" alt="terrarium">
+<img src="WhatsApp_Image_2026-02-06_at_14.10.01_4.jpg" alt="sensors">
+
+<h2>5 · Final assembly</h2>
+<p>The final step was to assemble the mobile structure with the terrarium, which would interact through the sensors, and the Arduino would activate the servomotors when there was a lack or excess of light, humidity, or temperature.</p>
+<img src="WhatsApp_Image_2026-02-06_at_14.25.54.jpg" alt="final 1">
+<img src="WhatsApp_Image_2026-02-06_at_14.25.54_1.jpg" alt="final 2">
+
+<hr>
+
+<h2>Result and reflections</h2>
+
+<h3>Final prototype</h3>
+<p>The prototype merges low-tech walking principles with responsive ecology: a self-contained terrarium carried by a 12-legged kinetic chassis. Sensors detect critical fluctuations and trigger movement – an attempt to give a micro-ecosystem agency to flee hostile spots. Though still a work in progress, it embodies a shift from static green infrastructure to nomadic, multispecies care. This collaborative prototype opened new intersections between mobility studies and non-human perspectives. We realized that movement can be a form of micro-refuge, and that designing for more-than-human cities demands active, modular, low-energy solutions.</p>
+<img src="_jsla04uz6a.jpg" alt="final prototype">
+
+<h3>Circuit diagram</h3>
+<p>Looking at the final Arduino circuit diagram, we can see how the sensors, actuators, and microcontroller work together to make the prototype respond to environmental conditions. Ideally, we would have liked to include ultrasonic or proximity sensors so that the prototype could avoid obstacles and be more aware of its surroundings, but we didn't have enough time to implement them. Nevertheless, the current logic (humidity & temp & light) already allows reactive displacement, which represents a fundamental step towards autonomous ecological machines.</p>
+<img src="captura_de_pantalla_2026-02-06_144044_sFLHTnbYxC.jpg" alt="circuit diagram">
+
+<h3>The main issue</h3>
+<p>The main problem we encountered with the project was the servomotors, which have a 180-degree range, preventing the mechanism from moving in a specific direction and only allowing it to sway slightly back and forth. If it weren't for this issue and a few adjustments needed on the leg shafts, the prototype would have achieved its goal, but we will continue working to make it fully functional. Future iterations will use continuous rotation servos or stepper motors, plus improved crankshaft alignment. However, the conceptual and mechanical foundations are solid: a walking refuge that responds to urban microclimates.</p>
+<video src="WhatsApp_Video_2026-02-06_at_15.18.11.mp4" autoplay loop muted playsinline></video>
+
+<hr>
+
+<h3>✨ Reflections</h3>
+<p>This project has been a turning point in my way of understanding mobility. Beyond the urban planning charts, traffic flows, and human-centered efficiency metrics, building the Nomadic Infrastructure forced me to get my hands dirty — literally assembling legs, calibrating sensors, and failing with servomotors. It helped me realize that creating complex mechanical structures is not just an engineering challenge but a design speculation tool.</p>
+
+<p>I discovered that mobility does not have to be fast, nor anthropocentric. The slow, fragile, almost clumsy walk of our twelve-legged organism proposed an alternative: movement as survival, not as optimization. This speculative shift opens unexpected territories — what if drones in the future do not deliver packages but carry micro-refuges for pollinators? What if robotic mobility is reimagined as a multispecies choreography rather than logistics?</p>
+
+<p>The workshop allowed me to speculate with robotic mobility for other species, to think of machines that serve ecological thresholds instead of human desires. I am leaving this process with a new sensitivity: designing movement means designing attention, care, and the right to escape hostile ground — whether you are a worm, a beetle, or a future urban drone.</p>
+
+<hr>
+<p><strong>Team:</strong> Antonio García Fernández · Erandi<br>
+Prototype inspired by Theo Jansen · Arduino · Laser cutting · 3D printing · Silicone mold · Pine resin casting</p>
+
 </body>
 </html>
                 
@@ -704,7 +554,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 25, 2026 17:59:46 UTC">May 25, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 25, 2026 18:09:55 UTC">May 25, 2026</span>
     
   </small>
 </div>
