@@ -170,7 +170,7 @@
         </div>
         <div class="flex-media">
             <!-- REEMPLAZA image1.jpg por tu imagen real -->
-            <img src="images/Captura de pantalla 2026-02-09 142615.png" alt="workshop process">
+            ![](images/Captura de pantalla 2026-02-09 142615.jpg)
         </div>
     </div>
 <!-- DOBLE TEXTO (conexión de intereses) -->
