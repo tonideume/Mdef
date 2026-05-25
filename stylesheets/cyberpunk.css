@@ -141,22 +141,13 @@ body.is-leaving main, body.is-leaving .nav { filter: hue-rotate(80deg) saturate(
 
 /* ===== Reveal on scroll ===== */
 [data-reveal] {
-  opacity: 1;
-  transform: none;
-  clip-path: inset(0 0 0 0);
-  transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1), clip-path .9s cubic-bezier(.2,.8,.2,1);
-}
-html.js [data-reveal] {
-  opacity: 0;
-  transform: translateY(24px) translateZ(0);
+  opacity: 0; transform: translateY(24px) translateZ(0);
   clip-path: inset(0 100% 0 0);
+  transition: opacity .7s ease, transform .7s cubic-bezier(.2,.8,.2,1), clip-path .9s cubic-bezier(.2,.8,.2,1);
   will-change: opacity, transform, clip-path;
 }
-html.js [data-reveal].is-visible,
-html.js [data-reveal].reveal-fallback {
-  opacity: 1;
-  transform: none;
-  clip-path: inset(0 0 0 0);
+[data-reveal].is-visible {
+  opacity: 1; transform: none; clip-path: inset(0 0 0 0);
 }
 
 /* ===== Loading screen ===== */
