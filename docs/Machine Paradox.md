@@ -198,3 +198,21 @@ After the disassembly process, we meticulously examined each individual componen
 
 # Machine Paradox Part 2
 
+![](images/SKETCHESSTABING.jpg)
+![](images/PARTS.png)
+![](images/MATERIALSANDPARTS.png)
+![](images/IMG_2620.jpg)
+![](images/SYSTEMDIAGRAM.png)
+![](images/STABINGMACHINE.jpg)
+
+# REFLECTIONS
+
+Before this project, I had never opened or disassembled an electronic device, which made the whole experience both unexpected and exciting. Exploring the inside of an old computer gave me a completely new perspective on technology. I was surprised by the number of components hidden inside, from the CD reader and cooling fan to the motherboard and many smaller elements that usually go unnoticed. Examining and testing each part to determine whether it was still functional felt like solving a puzzle, and I was always eager to see if the components we planned to reuse would actually work.
+
+Designing a “useless machine” was also a unique challenge because it required a different mindset than most design projects. Instead of focusing on functionality and efficiency, we had to intentionally create something without practical value while still making it engaging and meaningful. Reaching a shared vision within the group took time, as everyone had different ideas and preferences. Through discussion and collaboration, however, we eventually arrived at a concept that reflected contributions from all team members.
+
+After establishing the main idea, organizing and distributing responsibilities became crucial to keep the project moving forward efficiently. Throughout this process, I gained valuable experience with Arduino programming and laser-cutting techniques. At first, both tools seemed intimidating, but as I worked with them, I became much more confident in using them.
+
+Producing the final video was one of the most enjoyable stages of the project. It provided an opportunity to communicate our concept clearly and transform our ideas into a visual narrative that others could easily understand.
+
+Overall, this project encouraged me to step outside my comfort zone and engage with technology in a more hands-on and creative way. It not only introduced me to new tools and processes but also helped me develop practical skills and collaborative experience that I believe will be valuable in future projects.
