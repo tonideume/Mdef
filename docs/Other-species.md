@@ -420,9 +420,6 @@ footer{
     </div>
   </section>
 
-![](images/musgo.jpg)
-![](images/liquen.jpg)
-
   <!-- METRICS -->
   <div class="metrics">
     <div class="metric">
@@ -582,8 +579,6 @@ footer{
     </div>
   </section>
 
-![](images/musgo-urbano.jpg)
-![](images/musgo-pared.jpg)
 
   <!-- TESTING PIPELINE -->
   <section>
