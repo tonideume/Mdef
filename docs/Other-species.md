@@ -419,9 +419,9 @@ footer{
       <div class="hero-caption">SONOLICHEN · ACOUSTIC WALL · NOISE → SILENCE</div>
     </div>
   </section>
-  
-![](images/IMG_2899.jpeg)
-![](images/IMG_2899.jpeg)
+
+![](images/musgo.jpg)
+![](images/liquen.jpg)
 
   <!-- METRICS -->
   <div class="metrics">
@@ -582,8 +582,8 @@ footer{
     </div>
   </section>
 
-![](images/IMG_2899.jpeg)
-![](images/IMG_2899.jpeg)
+![](images/musgo-urbano.jpg)
+![](images/musgo-pared.jpg)
 
   <!-- TESTING PIPELINE -->
   <section>
